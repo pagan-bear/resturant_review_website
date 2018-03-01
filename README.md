@@ -81,10 +81,7 @@ HTML / CSS / JS files
 Step 3: Integration with Google Places API
 For the moment, there are not many restaurants or reviews. Fortunately, Google Places offers an API to retrieve restaurants and reviews! Use it to display additional restaurants and reviews on your map so you don't have to use only your JSON file. Here's their documentation: [Place Details | Google Places](https://developers.google.com/places/web-service/details).
 
-Image goes here
-![alt text](http://github.com/pagan-bear/resturant_review_website/master/GooglePlaces.png "Google Places")
- 
-![Image of GooglePlaces](http://github.com/pagan-bear/resturant_review_website/GooglePlaces.png)
+![Image of GooglePlaces](https://github.com/pagan-bear/resturant_review_website/blob/master/GooglePlaces.png)
 
 You'll use the search API to find restaurants in a particular display area.
 
