@@ -15,7 +15,7 @@ The Google Maps map will focus immediately on the position of the user. You'll u
 A list of restaurants is provided as JSON data in a separate file. Normally, this data would be returned to the backend of your application by an API, but for this exercise, it's sufficient just to load the list of restaurants directly into memory!
 
 Here's a sample JSON file with 2 restaurants pre-filled in there (you should create your own):
-
+```
 [
    {
       "restaurantName":"Bronco",
@@ -50,7 +50,7 @@ Here's a sample JSON file with 2 restaurants pre-filled in there (you should cre
       ]
    }
 ]
-
+```
 Show restaurants on the map based on their GPS coordinates. Restaurants that are currently visible on the map should be displayed in list form on the side of the map as mentioned above. You will see the average reviews of each restaurant (ranging from 1 to 5 stars). These ratings come from your JSON file (not real reviews).
 
 When you click on a restaurant, the list of reviews should be shown. Also show the [Google Street View photo](https://developers.google.com/maps/documentation/streetview/?hl=en) via the corresponding API! 
@@ -81,6 +81,10 @@ HTML / CSS / JS files
 Step 3: Integration with Google Places API
 For the moment, there are not many restaurants or reviews. Fortunately, Google Places offers an API to retrieve restaurants and reviews! Use it to display additional restaurants and reviews on your map so you don't have to use only your JSON file. Here's their documentation: [Place Details | Google Places](https://developers.google.com/places/web-service/details).
 
+Image goes here
+![alt text](http://github.com/pagan-bear/resturant_review_website/master/GooglePlaces.png "Google Places")
+ 
+![Image of GooglePlaces](http://github.com/pagan-bear/resturant_review_website/GooglePlaces.png)
 
 You'll use the search API to find restaurants in a particular display area.
 
@@ -89,7 +93,9 @@ Read the documentation to learn how to access data from Google Places, and feel 
 Files to provide:
 
 HTML / CSS / JS files
+
 ---
+
 # Presentation
 You'll do an oral presentation of your project with a mentor in order to simulate real-life conditions. 
 
