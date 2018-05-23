@@ -58,27 +58,24 @@ When you click on a restaurant, the list of reviews should be shown. Also show t
 A filter tool allows the display of restaurants that have between X and Y stars. The map should be updated in real-time to show the corresponding restaurants.
 
 Files to provide:
+`.html` `.css` `.js` `.json`
 
-HTML / CSS / JS files
----
 ## Step 2: Add restaurants and reviews
 Your visitors would also like to give their opinions on restaurants!
 
 Let them:
 
-Add a review about an existing restaurant
-
-Add a restaurant by clicking on a specific place on the map
++ Add a review about an existing restaurant
++ Add a restaurant by clicking on a specific place on the map
 
 Once a review or restaurant has been added, it should appear immediately on the map. A new marker will show the position of the new restaurant.
 
 The information will not be saved if they leave the page (it will just be saved in memory for the duration of the visit).
 
 Files to provide:
+`.html` `.css` `.js`
 
-HTML / CSS / JS files
----
-Step 3: Integration with Google Places API
+## Step 3: Integration with Google Places API
 For the moment, there are not many restaurants or reviews. Fortunately, Google Places offers an API to retrieve restaurants and reviews! Use it to display additional restaurants and reviews on your map so you don't have to use only your JSON file. Here's their documentation: [Place Details | Google Places](https://developers.google.com/places/web-service/details).
 
 ![Image of GooglePlaces](https://github.com/pagan-bear/resturant_review_website/blob/master/GooglePlaces.png)
@@ -88,10 +85,7 @@ You'll use the search API to find restaurants in a particular display area.
 Read the documentation to learn how to access data from Google Places, and feel free to search around on Google for tips if you get a little stuck!
 
 Files to provide:
-
-HTML / CSS / JS files
-
----
+`.html` `.css` `.js`
 
 # Presentation
 You'll do an oral presentation of your project with a mentor in order to simulate real-life conditions. 
