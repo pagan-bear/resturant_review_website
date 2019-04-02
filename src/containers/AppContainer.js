@@ -7,8 +7,10 @@ import RightSideContainer from './RightSideContainer';
 import RestaurantContainer from './RestaurantContainer';
 import FooterContainer from './FooterContainer';
 
+import '../stylesheets/AppContainer.css';
+
 const AppContainer = () => (
-  <div>
+  <div className='AppContainer'>
     <HeaderContainer />
     <BannerContainer />
     <LeftSideContainer />
