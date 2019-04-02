@@ -2,8 +2,7 @@
 import React from 'react';
 import HeaderContainer from './HeaderContainer';
 import BannerContainer from './BannerContainer';
-import LeftSideContainer from './LeftSideContainer';
-import RightSideContainer from './RightSideContainer';
+import ContentContainer from './ContentContainer';
 import RestaurantContainer from './RestaurantContainer';
 import FooterContainer from './FooterContainer';
 
@@ -13,9 +12,7 @@ const AppContainer = () => (
   <div className='AppContainer'>
     <HeaderContainer />
     <BannerContainer />
-    <LeftSideContainer />
-    <RightSideContainer />
-    <RestaurantContainer />
+    <ContentContainer />
     <FooterContainer />
   </div>
 );
