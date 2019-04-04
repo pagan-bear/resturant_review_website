@@ -1,3 +1,6 @@
 .RestaurantContainer {
+    padding: 5px;
     background-color: palegoldenrod;
+    flex-grow: 1;
+    min-height: 20vh;
 }
