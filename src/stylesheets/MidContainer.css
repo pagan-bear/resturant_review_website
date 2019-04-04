@@ -1,0 +1,6 @@
+.MidContainer {
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    flex-grow: 2;
+}

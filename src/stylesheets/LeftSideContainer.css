@@ -1,0 +1,5 @@
+.LeftSideContainer {
+    padding: 5px;
+    background-color: lightgreen;
+    flex-grow: 1;
+}
